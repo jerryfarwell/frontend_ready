@@ -27,7 +27,8 @@ function ProductCard(props) { // props.product is the product we are selling
                     <Button variant="primary" onClick={() => cart.addOneToCart(product.id)}>Add To Cart</Button>
                 }
             </Card.Body>
-        </Card>
+        </Card>  
+        // from nazandu
     )
 }
 
